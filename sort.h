@@ -22,4 +22,5 @@ void selection_sort(int *array, size_t size);
 int partition_array(int *array, size_t size, int head, int tail);
 void lomuto_sort(int *array, size_t size, int head, int tail);
 void quick_sort(int *array, size_t size);
+void shell_sort(int *array, size_t size);
 #endif /* SORT_H */
